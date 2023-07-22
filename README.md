@@ -11,6 +11,7 @@ an open-source Discord bot that combines the power of Audiocraft and Discord to 
 
 DiscoCraft is a quick proof of concept built with the assistance of GPT and the incredible Audiocraft library by Meta. It brings together the world of audio generation and Discord to create a unique music experience in your server. 🎧🎉
 
+Example using the command with our WoahDream Bot:
 ![woahdream bot example](https://github.com/Woahai321/DiscoCraft/assets/115117306/9d842be9-7b8d-495c-affc-e487ba97fc51)
 
 
