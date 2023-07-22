@@ -55,7 +55,7 @@ Here's how you can contribute:
 🔳 Proper queue management
 
 
-## Join the WoahAI Discord Server
+## Join the WoahAI Discord Server or [Invite our bot](https://discord.com/oauth2/authorize?client_id=1124468650154397836&scope=bot&permissions=124992)
 
 Connect with other contributors, share ideas, and collaborate on the future development of DiscoCraft by joining our dedicated Discord server. [Click here to join!](https://discord.gg/Br4bnudzHs) 🎉🎶
 
