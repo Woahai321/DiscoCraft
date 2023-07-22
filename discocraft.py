@@ -121,7 +121,7 @@ async def music(ctx, *, description=None):
         for idx, one_wav in enumerate(wav):
             sanitized_description = "".join(c if c.isalnum() else "_" for c in description)  # Sanitize the description for use in the file name
             while True:
-                file_path = f'{ctx.author.id}_{idx}_{sanitized_description}'  # Append user's Discord ID, index, unique ID, and sanitized description
+                file_path = f'{idx}_DiscoCraft_{sanitized_description}'  # Append user's Discord ID, index, unique ID, and sanitized description
                 if not Path(file_path).exists():
                     break
                 unique_id += 1
@@ -129,12 +129,12 @@ async def music(ctx, *, description=None):
 
         # Send the audio files to the user
         for idx in range(len(wav)):
-            file_path = f'{ctx.author.id}_{idx}_{sanitized_description}.wav'  # Use the same unique ID generated earlier
+            file_path = f'{idx}_DiscoCraft_{sanitized_description}.wav'  # Use the same unique ID generated earlier
             if Path(file_path).exists():
                 file = discord.File(file_path)
                 description_embed = f"🎶 {ctx.author.mention} - !music {description} 🎶"
                 embed = discord.Embed(description=description_embed)
-                embed.set_footer(text='Made by WoahDream', icon_url='https://share.woahlab.com/-H2ksedxri9/')
+                embed.set_footer(text='Made by WoahDream', icon_url='https://avatars.githubusercontent.com/u/115117306?s=96&v=4')
                 await ctx.send(embed=embed, file=file)
                 await asyncio.sleep(1)  # Delay between sending each audio file
 
