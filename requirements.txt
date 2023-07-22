@@ -1,0 +1,7 @@
+# Discord dependencies
+discord
+discord.py
+
+# Additional dependencies
+python-dotenv
+requests
