@@ -1,3 +1,12 @@
+# ==============================================================================
+# Soluify  |  Your #1 IT Problem Solver  |  {discocraft v1.0}
+# ==============================================================================
+#  __         _   
+# (_  _ |   .(_   
+# __)(_)||_||| \/ 
+#              /
+# © 2024 Soluify LLC
+# ------------------------------------------------------------------------------
 import discord
 from discord.ext import commands, tasks
 from discord import File, Forbidden, HTTPException
