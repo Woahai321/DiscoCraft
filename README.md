@@ -67,6 +67,15 @@ Connect with other contributors, share ideas, and collaborate on the future deve
 
 We would like to express our gratitude to Meta and the Audiocraft team for their amazing work on creating such a powerful library. DiscoCraft would not be possible without them.
 
+## 💰 Donations
+
+If you find our work useful and would like to support us, feel free to make a donation using the addresses below:
+
+- BTC (Bitcoin): `bc1qxjpfszwvy3ty33weu6tjkr394uq30jwkysp4x0`
+- ETH (Ethereum): `0xAF3ADE79B7304784049D200ea50352D1C717d7f2`
+
+Thank you for your support!
+
 ## License
 
 DiscoCraft is released under the [MIT License](https://github.com/WoahAi321/DiscoCraft/blob/main/LICENSE). Feel free to use it, modify it, and contribute to it as per the terms of the license.
